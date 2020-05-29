@@ -342,11 +342,6 @@ class CalendarView : View() {
                         find(DepartmentsChange::class).openWindow()
                     }
                 }
-                button("Обновить") {
-                    action {
-                        departments.setAll(controller.getDepartment())
-                    }
-                }
             }
         }
     }
